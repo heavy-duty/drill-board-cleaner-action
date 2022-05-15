@@ -55565,6 +55565,7 @@ async function run() {
 
       if (error !== undefined) {
         await octokit.rest.issues.removeLabel({
+          issue_number: issue.number,
           owner,
           repo: repoName,
           name: 'drill:bounty:closed'
