@@ -64,8 +64,7 @@ async function run() {
       }
 
       if (error !== undefined) {
-        await octokit.issues.removeLabel({
-          comment_id: bountyEnabledComment.id,
+        await octokit.rest.issues.removeLabel({
           owner,
           repo: repoName,
           name: 'drill:bounty:closed'

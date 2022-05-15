@@ -1,6 +1,6 @@
 {
-  "name": "drill-vault-updater-action",
-  "version": "1.0.4",
+  "name": "drill-board-cleaner-action",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heavy-duty/drill-vault-updater-action.git"
+    "url": "git+https://github.com/heavy-duty/drill-board-cleaner-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heavy-duty/drill-vault-updater-action/issues"
+    "url": "https://github.com/heavy-duty/drill-board-cleaner-action/issues"
   },
-  "homepage": "https://github.com/heavy-duty/drill-vault-updater-action#readme",
+  "homepage": "https://github.com/heavy-duty/drill-board-cleaner-action#readme",
   "dependencies": {
     "@actions/core": "^1.8.2",
     "@actions/github": "^5.0.3",
