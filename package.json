@@ -1,0 +1,28 @@
+{
+  "name": "drill-vault-updater-action",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heavy-duty/drill-vault-updater-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heavy-duty/drill-vault-updater-action/issues"
+  },
+  "homepage": "https://github.com/heavy-duty/drill-vault-updater-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "@actions/github": "^5.0.3",
+    "@solana/spl-token": "^0.2.0",
+    "@solana/spl-token-registry": "^0.2.7",
+    "@solana/web3.js": "^1.42.0",
+    "bn.js": "^5.2.0"
+  }
+}

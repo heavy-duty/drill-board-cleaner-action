@@ -1,0 +1,26 @@
+name: "Drill Vault Updater"
+description: "Update vault amount for every enabled bounty."
+inputs:
+  program-id:
+    description: "Drill Program ID"
+    required: true
+  github-repository:
+    description: "Github Repository"
+    required: true
+  rpc-endpoint:
+    description: "URL of the RPC endpoint"
+    required: true
+  cluster:
+    description: "Name of the network"
+    required: true
+    default:
+  token:
+    description: "Github Token"
+    required: true
+
+outputs:
+  time: # id of output
+    description: "Result"
+runs:
+  using: "node16"
+  main: "dist/index.js"
