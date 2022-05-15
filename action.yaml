@@ -10,10 +10,6 @@ inputs:
   rpc-endpoint:
     description: "URL of the RPC endpoint"
     required: true
-  cluster:
-    description: "Name of the network"
-    required: true
-    default:
   token:
     description: "Github Token"
     required: true
